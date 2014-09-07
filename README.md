@@ -4,7 +4,7 @@ Productivity
 All the tips to improve your productivity for front end development in mac.
 
 ##How to add/edit .bash_profile?
-Open the Terminal app and if the file ~/.bash_profile does not already exist create one with the following command.
+Open the Terminal app and if the file ~/.bash_profile does not already exist create one with the following command.  
 ```touch ~/.bash_profile```
 
 Open ~/.bash_profile in your favorite editor and add your content and save it.
@@ -18,7 +18,7 @@ By default macbook comes with python installed. So you can just run the below co
 python -m SimpleHTTPServer 8000
 
 Need an alias/shortcut for this?  
-Add below snippet to your .bash_profile and from next time you can run ``server``` command in terminal to bring up the server.
+Add below snippet to your .bash_profile and from next time you can run ``server``` command in terminal to bring up the server.  
 ```alias server="python -m SimpleHTTPServer 8000"```
 
 ##Opening sublime from command prompt:
@@ -56,7 +56,7 @@ Source: https://github.com/mfitzp/martinfitzpatrick.name/blob/master/content/com
 
 ##How to create an alias to bring up xcode ios simulator?
 ```alias ios="open /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Applications/iPhone\ Simulator.app"```  
-Once this is added to your ```.bash_profile``` do ```source ~/.bash_profile``` interminal to bring up the changes.
+Once this is added to your ```.bash_profile``` do ```source ~/.bash_profile``` in terminal to bring up the changes.
 You can run ```ios``` in terminal to bring up the ios simulator
 
 ##How to create aliases for normal git commands?
