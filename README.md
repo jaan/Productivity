@@ -1,12 +1,25 @@
 Productivity
 ============
 
-All the tips to improve your productivity for front end development
+All the tips to improve your productivity for front end development in mac.
+
+##How to add/edit .bash_profile?
+Open the Terminal app and if the file ~/.bash_profile does not already exist create one with the following command.
+```touch ~/.bash_profile```
+
+Open ~/.bash_profile in your favorite editor and add your content and save it.
+
+Most of the below tips depend on this when it says add to .bash_profile.  
+Note: You need to run ```source ~/.bash_profile``` to bring up the changes.
 
 ##How to bring up the simple server?
-By default macbook comes with python installed. So you can just do
+By default macbook comes with python installed. So you can just run the below command to bring up the server. This is similar to bringing up the simple apache server.
 
 python -m SimpleHTTPServer 8000
+
+Need an alias/shortcut for this?  
+Add below snippet to your .bash_profile and from next time you can run ``server``` command in terminal to bring up the server.
+```alias server="python -m SimpleHTTPServer 8000"```
 
 ##Opening sublime from command prompt:
 In a mac terminal  
@@ -21,7 +34,6 @@ This will create a symlink, after this you can run below commands:
 Open the Terminal app and if the file ~/.bash_profile does not already exist create it with the following command.
 
 ```touch ~/.bash_profile```
-
 
 
 Open ~/.bash_profile in your favorite editor and add the following content to the bottom.
@@ -59,4 +71,4 @@ alias gcb='git copy-branch-name'
 alias gb='git branch'  
 alias gs='git status -sb'  
 ```
-Added aliases to ```.bash_profile``` do ```source ~/.bash_profile``` in terminal to bring up the changes.
+Add aliases to ```.bash_profile``` do ```source ~/.bash_profile``` in terminal to bring up the changes.
