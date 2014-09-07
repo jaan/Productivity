@@ -41,3 +41,6 @@ If you are using an existing Terminal session, don't forget to make the changes 
 ```source ~/.bash_profile```
 
 Source: https://github.com/mfitzp/martinfitzpatrick.name/blob/master/content/computing/add-git-branch-name-to-terminal-prompt-mac.md
+
+How to create an alias to bring up xcode ios simulator?
+```alias ios="open /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Applications/iPhone\ Simulator.app"```
