@@ -15,7 +15,7 @@ Note: You need to run ```source ~/.bash_profile``` in terminal to bring up the c
 ##How to bring up the simple server?
 By default macbook comes with python installed. So you can just run the below command to bring up the server. This is similar to bringing up the simple apache server.
 
-python -m SimpleHTTPServer 8000
+```python -m SimpleHTTPServer 8000```
 
 Need an alias/shortcut for this?  
 Add below snippet to your .bash_profile and from next time you can run ```server``` command in terminal to bring up the server.  
