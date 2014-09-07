@@ -43,8 +43,8 @@ If you are using an existing Terminal session, don't forget to make the changes 
 Source: https://github.com/mfitzp/martinfitzpatrick.name/blob/master/content/computing/add-git-branch-name-to-terminal-prompt-mac.md
 
 ##How to create an alias to bring up xcode ios simulator?
-```alias ios="open /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Applications/iPhone\ Simulator.app"```
-Once this is added to your ```.bash_profile``` do ```source ~/.bash_profile``` to bring up the changes.
+```alias ios="open /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Applications/iPhone\ Simulator.app"```  
+Once this is added to your ```.bash_profile``` do ```source ~/.bash_profile``` interminal to bring up the changes.
 You can run ```ios``` in terminal to bring up the ios simulator
 
 ##How to create aliases for normal git commands?
@@ -59,4 +59,4 @@ alias gcb='git copy-branch-name'
 alias gb='git branch'  
 alias gs='git status -sb'  
 ```
-Added aliases to ```.bash_profile``` do ```source ~/.bash_profile``` to bring up the changes.
+Added aliases to ```.bash_profile``` do ```source ~/.bash_profile``` in terminal to bring up the changes.
