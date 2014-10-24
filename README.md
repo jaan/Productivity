@@ -85,3 +85,4 @@ tree
 tree -d
 tree -a 
 ```
+Use ```tree --help``` to find all the options
