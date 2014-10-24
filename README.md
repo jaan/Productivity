@@ -72,3 +72,16 @@ alias gb='git branch'
 alias gs='git status -sb'  
 ```
 Add aliases to ```.bash_profile``` do ```source ~/.bash_profile``` in terminal to bring up the changes.
+
+## How to view the folders in tree structure in terminal
+```
+brew install tree
+```
+
+then you can RUN the various tree commands
+
+```
+tree
+tree -d
+tree -a 
+```
