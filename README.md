@@ -97,8 +97,9 @@ $ history | grep 'queryselector'
 $ top -o vsize
 ```
 ### Run the last command with SUDO
+```
 $ sudo !!
-
+```
 ### Unzip an archive to the current directory
 ```
 $ unzip -l file.zip
