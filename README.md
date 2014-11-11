@@ -86,3 +86,25 @@ tree -d
 tree -a 
 ```
 Use ```tree --help``` to find all the options
+
+## Command Line shortcuts
+### Search your command line history
+```
+$ history | grep 'queryselector'
+```
+### Whats taking your memory
+```
+$ top -o vsize
+```
+### Run the last command with SUDO
+$ sudo !!
+
+### Unzip an archive to the current directory
+```
+$ unzip -l file.zip
+```
+###Copy to clipboard
+```
+$ echo 'hello' | pbcopy
+```
+
