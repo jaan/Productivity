@@ -100,7 +100,7 @@ $ top -o vsize
 ```
 $ sudo !!
 ```
-### Unzip an archive to the current directory
+### Unzip and archive to the current directory
 ```
 $ unzip -l file.zip
 ```
