@@ -6,20 +6,21 @@ All the tips to improve your productivity for front end development in mac.
 ##How to add/edit .bash_profile?
 Open the Terminal app and if the file ~/.bash_profile does not already exist create one with the following command.  
 ```touch ~/.bash_profile```
+
+Open ~/.bash_profile in your favorite editor and add your content and save it.
+
+Most of the below tips depend on this when it says add to .bash_profile.  
+Note: You need to run ```source ~/.bash_profile``` in terminal to bring up the changes.
+
 ##How to add/modify the PATH in mac OS using Terminal?
 To check the current PATH, run
 ``` echo $PATH ```  
 The result will look like   
 /usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
 
-In terminal, run  
+In terminal to add/modify, run  
 ```export PATH="/usr/local/myfolder/bin:$PATH"```  
-$PATH at the end ensures that the old PATH is also retained along with new addition.  
-
-Open ~/.bash_profile in your favorite editor and add your content and save it.
-
-Most of the below tips depend on this when it says add to .bash_profile.  
-Note: You need to run ```source ~/.bash_profile``` in terminal to bring up the changes.
+$PATH at the end ensures that the old PATH is also retained along with new addition. 
 
 ##How to bring up the simple server?
 By default macbook comes with python installed. So you can just run the below command to bring up the server. This is similar to bringing up the simple apache server.
