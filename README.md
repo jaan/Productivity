@@ -13,7 +13,7 @@ Most of the below tips depend on this when it says add to .bash_profile.
 Note: You need to run ```source ~/.bash_profile``` in terminal to bring up the changes.
 
 ##How to add/modify the PATH in mac OS using Terminal?
-To check the current PATH, run
+To check the current PATH, run  
 ``` echo $PATH ```  
 The result will look like   
 /usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
