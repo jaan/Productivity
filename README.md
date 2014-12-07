@@ -6,6 +6,15 @@ All the tips to improve your productivity for front end development in mac.
 ##How to add/edit .bash_profile?
 Open the Terminal app and if the file ~/.bash_profile does not already exist create one with the following command.  
 ```touch ~/.bash_profile```
+##How to add/modify the PATH in mac OS using Terminal?
+To check the current PATH, run
+``` echo $PATH ```  
+The result will look like   
+/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
+
+In terminal, run  
+```export PATH="/usr/local/myfolder/bin:$PATH"```  
+$PATH at the end ensures that the old PATH is also retained along with new addition.  
 
 Open ~/.bash_profile in your favorite editor and add your content and save it.
 
