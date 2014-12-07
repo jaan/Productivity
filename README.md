@@ -15,12 +15,13 @@ Note: You need to run ```source ~/.bash_profile``` in terminal to bring up the c
 ##How to add/modify the PATH in mac OS using Terminal?
 To check the current PATH, run  
 ``` echo $PATH ```  
-The result will look like   
-``` /usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin ```
+The result will look like    
+``` /usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin ```  
 
 In terminal to add/modify, run  
-``` export PATH="/usr/local/myfolder/bin:$PATH" ```
-$PATH at the end ensures that the old PATH is also retained along with new addition. 
+``` export PATH="/usr/local/myfolder/bin:$PATH" ```   
+
+$PATH at the end ensures that the old PATH is also retained along with new addition.   
 ``` echo $PATH ``` result will look like ``` /usr/local/myfolder/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin ```  
 
 ##How to bring up the simple server?
