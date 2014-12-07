@@ -16,11 +16,12 @@ Note: You need to run ```source ~/.bash_profile``` in terminal to bring up the c
 To check the current PATH, run  
 ``` echo $PATH ```  
 The result will look like   
-/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
+```/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin```
 
 In terminal to add/modify, run  
 ```export PATH="/usr/local/myfolder/bin:$PATH"```  
 $PATH at the end ensures that the old PATH is also retained along with new addition. 
+```echo $PATH``` result will look like ```/usr/local/myfolder/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin```  
 
 ##How to bring up the simple server?
 By default macbook comes with python installed. So you can just run the below command to bring up the server. This is similar to bringing up the simple apache server.
