@@ -103,13 +103,13 @@ Use ```tree --help``` to find all the options
 ### Search your command line history
 $ ```history | grep 'queryselector' ```  
 ### Whats taking your memory
-$```top -o vsize```  
+$ ```top -o vsize```  
 ### Run the last command with SUDO
-$```sudo !!```  
+$ ```sudo !!```  
 ### Unzip and archive to the current directory
-$```unzip -l file.zip```    
+$ ```unzip -l file.zip```    
 ###Copy to clipboard
-$```echo 'hello' | pbcopy```  
+$ ```echo 'hello' | pbcopy```  
 
 ##How to find the full path of shell commands?
 Useful to find the installed paths
