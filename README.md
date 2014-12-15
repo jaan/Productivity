@@ -120,4 +120,9 @@ $ unzip -l file.zip
 ```
 $ echo 'hello' | pbcopy
 ```
-
+##How to find the full path of shell commands?
+Useful to find the installed paths
+```
+which grunt
+```
+Outputs /usr/local/bin/grunt
