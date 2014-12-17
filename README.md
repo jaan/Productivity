@@ -24,7 +24,7 @@ In terminal to add/modify, run
 $PATH at the end ensures that the old PATH is also retained along with new addition.   
 ``` echo $PATH ``` result will look like ``` /usr/local/myfolder/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin ```  
 
-##How to bring up the simple server?
+##How to bring up the simple http server?
 By default macbook comes with python installed. So you can just run the below command to bring up the server. This is similar to bringing up the simple apache server.
 
 ```python -m SimpleHTTPServer 8000```
@@ -112,6 +112,6 @@ $ ```unzip -l file.zip```
 $ ```echo 'hello' | pbcopy```  
 
 ##How to find the full path of shell commands?
-Useful to find the installed paths
-```which grunt```  
+Useful to find the installed paths  
+$ ```which grunt```  
 Outputs /usr/local/bin/grunt
