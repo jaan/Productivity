@@ -116,3 +116,9 @@ Useful to find the installed paths
 command ```which```  
 $ ```which grunt```  
 Outputs /usr/local/bin/grunt
+
+##Download a file from terminal  
+$ ```curl http://www.readlot.com/myfilename.doc``` 
+
+##Checking network connectivity
+$ ```ping www.techbray.com```
