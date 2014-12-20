@@ -117,6 +117,12 @@ command ```which```
 $ ```which grunt```  
 Outputs /usr/local/bin/grunt
 
+##List the contents of a directory
+$ ``ls```  
+$ ```ls -l```  - To view in list format  
+$ ```ls -a```  - To view all files including hidden files  
+$ ```ls -la``` - To view all files in list format  
+
 ##Download a file from terminal  
 $ ```curl http://www.readlot.com/myfilename.doc``` 
 
