@@ -128,3 +128,14 @@ $ ```curl http://www.readlot.com/myfilename.doc```
 
 ##Checking network connectivity
 $ ```ping www.techbray.com```
+
+##How to check the available latest versions of your npm dependencies?
+$ ```npm install -g npm-check-updates```  
+
+After installign the npm-check updates, Run be low command for myour project root folder where package.json is present  
+
+$ ```npm-check-updates```
+
+This command will only print out all the available updates. This WON'T update.  
+Module Link https://www.npmjs.com/package/npm-check-updates
+
