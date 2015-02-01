@@ -132,10 +132,10 @@ $ ```ping www.techbray.com```
 ##How to check the latest available versions of your npm dependencies?
 $ ```npm install -g npm-check-updates```  
 
-After installign the npm-check updates, Run be low command for myour project root folder where package.json is present  
+After installing the npm-check-updates module, run the below command from your project root folder where package.json is present  
 
 $ ```npm-check-updates```
 
-This command will only print out all the available updates. This WON'T update.  
+This command will only print out all the available updates. This WON'T update your dependencies.  
 Module Link https://www.npmjs.com/package/npm-check-updates
 
