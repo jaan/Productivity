@@ -36,7 +36,10 @@ Add below snippet to your .bash_profile and from next time you can run ```server
 ##Opening sublime from command prompt:
 In a mac terminal  
 Run:  
-```sudo ln -s "/Applications/Sublime Text 2.app/Contents/SharedSupport/bin/subl" /bin/subl```  
+```sudo ln -s "/Applications/Sublime Text 2.app/Contents/SharedSupport/bin/subl" /bin/subl``` 
+OR   
+For sublimetext 3/beta   
+```sudo ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" /bin/subl```
 This will create a symlink, after this you can run below commands:  
  ```subl``` --> To open editor  
  ```subl .``` --> To open the current folder in Sublime  
