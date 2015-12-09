@@ -40,6 +40,10 @@ Run:
 OR   
 For sublimetext 3/beta   
 ```sudo ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" /bin/subl```
+
+Note: In new mac OS El Capitan, you are not allowed to write to /usr/bin, but writing to /usr/local/bin works. So use the below snippet
+```sudo ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" /usr/local/bin/subl```
+
 This will create a symlink, after this you can run below commands:  
  ```subl``` --> To open editor  
  ```subl .``` --> To open the current folder in Sublime  
