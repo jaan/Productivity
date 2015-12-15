@@ -146,3 +146,13 @@ $ ```npm-check-updates```
 This command will only print out all the available updates. This WON'T update your dependencies.  
 Module Link https://www.npmjs.com/package/npm-check-updates
 
+## Print the date before issuing each prompt in terminal
+
+```export PROMPT_COMMAND=date```
+
+```
+Tue Dec 10 12:24:08 PST 2015  
+user-MacBook-Pro $ 
+```
+
+
