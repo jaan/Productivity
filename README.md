@@ -150,9 +150,17 @@ Module Link https://www.npmjs.com/package/npm-check-updates
 
 ```export PROMPT_COMMAND=date```
 
+Output will be something like:
 ```
 Tue Dec 10 12:24:08 PST 2015  
-user-MacBook-Pro $ 
+user-MacBook-Pro:~$ 
 ```
+OR
+
+```export PROMPT_COMMAND="echo -n \[\$(date +%H:%M:%S)\]\ "```
+
+Output will be something like:
+
+```[07:00:31] user@name:~$ ``
 
 
