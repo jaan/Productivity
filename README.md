@@ -161,6 +161,6 @@ OR
 
 Output will be something like:
 
-```[07:00:31] user@name:~$ ``
+```[07:00:31] user@name:~$ ```
 
 
