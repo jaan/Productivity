@@ -163,4 +163,35 @@ Output will be something like:
 
 ```[07:00:31] user@name:~$ ```
 
+## How to list npm installed packages?
 
+```npm ls -g --depth=0```
+
+Output will look like:
+
+```
+├── browser-sync@2.11.0
+├── connect-history-api-fallback@1.1.0
+├── del@2.2.0
+├── gulp@3.9.0
+├── gulp-autoprefixer@3.1.0
+├── gulp-cache@0.4.1
+├── gulp-changed@1.3.0
+├── gulp-gh-pages@0.5.4
+├── gulp-html-extract@0.0.3
+├── gulp-imagemin@2.4.0
+├── gulp-jscs@3.0.2
+├── gulp-jscs-stylish@1.3.0
+├── gulp-jshint@1.12.0
+├── gulp-load-plugins@1.2.0
+├── gulp-minify-css@1.2.3
+├── gulp-minify-html@1.0.5
+├── gulp-rename@1.2.2
+├── gulp-replace@0.5.4
+├── gulp-uglify@1.5.1
+├── gulp-vulcanize@6.1.0
+├── jshint-stylish@2.1.0
+├── require-dir@0.3.0
+├── vulcanize@1.14.0
+└── web-component-tester@3.4.2
+```
