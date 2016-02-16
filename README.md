@@ -195,3 +195,7 @@ Output will look like:
 ├── vulcanize@1.14.0
 └── web-component-tester@3.4.2
 ```
+
+## Continually monitor the output of a file
+
+```$ tail -f /log/system.log```
