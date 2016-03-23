@@ -103,6 +103,7 @@ then you can RUN the various tree commands
 tree
 tree -d
 tree -a 
+tree -L 1  (display one level deep)  
 ```
 Use ```tree --help``` to find all the options
 
