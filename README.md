@@ -55,7 +55,7 @@ Open the Terminal app and if the file ~/.bash_profile does not already exist cre
 ```touch ~/.bash_profile```
 
 
-Open ~/.bash_profile in your favorite editor and add the following content to the bottom.
+Open ~/.bash_profile in your favorite editor or default editor(`open -e ~/.bash_profile`) and add the following content to the bottom.
 ```
 # Git branch in prompt.
 
